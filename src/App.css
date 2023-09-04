@@ -119,7 +119,7 @@ align-self: stretch;
 border-radius: 4px;
 height: 32.000px;
 background-color: #f8f4f4;
-background-image: url(./Assets//text-icone.png);
+
 background-repeat: no-repeat;
 background-position: right;
 
@@ -215,18 +215,13 @@ line-height: normal;
   margin-top: 25px;
 
 }
-a{
-  text-decoration: none;
-  display:flex;
-  align-items: center;
-  margin-right: 10px;
-  
-}
+
 .itens-menu2 h3{
-  margin-left: 0 px;
+  margin-left: 5 px;
   margin-right: 15px;
   color:#333333 ;
 }
+
 .btb-menu2{
   position: relative;
   display:table-column;
@@ -286,4 +281,14 @@ hr{
 a{
   text-decoration: none;
   color: #ffffff;
+}
+a{
+  text-decoration: none;
+  display:flex;
+  align-items: center;
+  margin-right: 10px;
+  
+}
+h3{
+  margin-left: 8px;
 }

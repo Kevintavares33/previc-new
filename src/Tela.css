@@ -1,0 +1,76 @@
+
+.card{
+    
+    margin-left: 500px;
+    margin-top: 148px;
+    width: 464px;
+    height: 334px;
+    top: 148px;
+    left: 455px;   
+   background-color: #ffffff;
+   border-radius: 1px;
+   border-color:#527BB7;
+   border-style: solid;
+    
+}
+
+.cacteristicas{
+    padding-top: 20px;
+    margin-top: 6px;
+    margin-left: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+.container{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+.input-data-final{
+    margin-right: 80px;
+    padding-top: 9px;
+}
+
+.paragrafo-ctr{
+    margin-left: 47px;
+    top: 8px;
+    position: relative;
+}
+
+.Btn-rod-card{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 270px;
+    border-radius: 40px;
+}
+.incluir-btn{
+    margin-right: 90px;
+    border-radius: 10px;
+    background-color: #1351B4;
+    color: #ffffff;
+    border: none;
+    padding: 8px 24px 8px 24px;
+    border-radius: 20px;
+    gap: 8px;
+    cursor: pointer; 
+ 
+}
+
+.cancelar-btn{
+    margin-right:30px ;
+    border-radius: 10px;
+    background-color:#ffff;
+    color: #1351B4 ;
+    border: none;
+    margin-left: -17px;
+    margin-right: 9px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 20px;
+    border: 1px;
+    border: 1px solid #1351B4;
+    gap: 8px;
+    cursor: pointer; 
+
+}
