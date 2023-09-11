@@ -1,6 +1,7 @@
 import React from "react";
-import TelaIncluirCaract from './TelaIncluirCaract'; 
+import TelaIncluirCaract from './IncluirCaracteristicas/TelaIncluirCaract'; 
 import Cadastrar from "./CadastroMandato";
+import TelaIncluirFuncao from './IncluirFuncao/TelaIncluirFuncao';
 import { Route, Routes } from "react-router-dom"; 
 
 const Rotas = () => {
@@ -8,6 +9,8 @@ const Rotas = () => {
     <Routes>
       <Route path="/" element={<Cadastrar />} />
       <Route path="/tela" element={<TelaIncluirCaract />} />
+      <Route path="/incluirfuncao" element={<TelaIncluirFuncao />} />
+      
     </Routes>
   );
 };

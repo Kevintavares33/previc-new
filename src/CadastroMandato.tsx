@@ -1,6 +1,6 @@
 
 import {Link} from 'react-router-dom'; 
-import Sigin from './Assets/sign-in.png';
+import Sigin from '../src/Assets/sign-in.png';
 import './App.css';
 
 
@@ -60,7 +60,7 @@ function Cadastrar() {
          </label>
 
          <label className='form-final'>
-         <span className='mandato-span'>Data Final</span>
+         <span className='mandato-data'>Data Final</span>
          <br />
          <input className='input-data-final' type='text' placeholder='03/03/2023' />
          </label>
@@ -75,16 +75,17 @@ function Cadastrar() {
     </div>
 
     <div className='segundo-menu'>
+    <Link to="/tela">
       <h3>Características</h3>
+      </Link>
+      <Link to="/incluirfuncao">
       <h3>Funções Especiais</h3>
+      </Link>
       <h3>Habilitação</h3>  
     </div>
    
     <hr />
-    <Link to="/tela">
   <button className='btb-menu2'> + Incluir Caracteristicas</button>
-    </Link>
-
     <div className='btn-footer'>
       <button className='btn-cancelar'>Cancelar</button>
       <button className='btn-salvar'>Salvar</button>

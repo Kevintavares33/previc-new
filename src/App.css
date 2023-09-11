@@ -185,8 +185,21 @@ line-height: normal;
 
 .form-data,
 .form-final {
-  margin-right: 10px; 
+  margin-right: 12px; 
 }
+.form-data{
+  padding-right: 9px;
+  width: 240px;
+  height: 10px;
+}
+.input-data{
+  height: 23px;
+}
+.input-data-final{
+  height: 16px;
+}
+
+
 
 .radio-group {
   display: flex;
@@ -280,7 +293,7 @@ hr{
 }
 a{
   text-decoration: none;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 a{
   text-decoration: none;

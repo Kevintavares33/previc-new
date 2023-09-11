@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Cadastrar from "./CadastroMandato";
-import TelaIncluirCaract from "./TelaIncluirCaract";
+import TelaIncluirCaract from "./IncluirCaracteristicas/TelaIncluirCaract";
+import TelaIncluirFuncao from './IncluirFuncao/TelaIncluirFuncao';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Cadastrar />} />
         <Route path="/tela" element={<TelaIncluirCaract />} />
+        <Route path="/incluirfuncao" element={<TelaIncluirFuncao />} />
       </Routes>
     </BrowserRouter>
   );
